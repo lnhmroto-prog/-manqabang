@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #f4eee1;
+  --color-cream-deep: #ede4d2;
+  --color-sand: #e4d9c4;
+  --color-sand-deep: #d9c9ab;
+  --color-espresso: #3a2a1e;
+  --color-charcoal: #5c5248;
+  --color-terracotta: #a85a2e;
+  --color-terracotta-soft: #c17a4d;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-cream-deep: var(--color-cream-deep);
+  --color-sand: var(--color-sand);
+  --color-sand-deep: var(--color-sand-deep);
+  --color-espresso: var(--color-espresso);
+  --color-charcoal: var(--color-charcoal);
+  --color-terracotta: var(--color-terracotta);
+  --color-terracotta-soft: var(--color-terracotta-soft);
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body: "EB Garamond", Georgia, "Times New Roman", serif;
+  --font-script: "Petit Formal Script", "Brush Script MT", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-espresso);
+  font-family: var(--font-body), Georgia, serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 3px;
+}
+
