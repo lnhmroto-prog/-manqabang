@@ -46,7 +46,7 @@ export default function StorySection() {
         <div className="flex flex-col">
           <CoverImage
             src="/grandma.jpg"
-            alt="A wedding previously hosted on the property, overlooking Lake Maqalika"
+            alt="Nkhono &apos;Manqabang"
             className="h-150 sm:h-160"
             fade={["top"]}
           />
@@ -175,14 +175,13 @@ export default function StorySection() {
         <h2 className="mt-4 font-display text-3xl tracking-wide text-terracotta uppercase mb-2">
           What Comes Next
         </h2>
-        <div className="flex flex-col items-center justify-center text-center px-5 sm:px-8 py-8 lg:py-6 bg-cream">
+        <div className="flex flex-col items-center justify-center text-center px-5 sm:px-8 py-8 lg:py-6 bg-cream mb-1">
           <p>
             The next step is turning this vision into a viable first phase. I intend to contribute what I can in terms of skills and other resources, even though working with USAID as a contractor meant that with its shutdown, my departure did not come with a substantial separation package. The unexpected transition that followed also required me to deplete my personal savings to survive in the United States. 
           </p>
-          <p className="">
+          <p className="mt-2 text-terracotta">
             The funding support would go directly into &apos;Manqabang itself:
           </p>
-          <div className="mt-1 flex flex-col items-center justify-center text-center px-5 sm:px-8 py-8 lg:py-6 bg-cream">
           <p className="mt-2">
             Renovating and upgrading the existing family home and structures
           </p>
@@ -204,8 +203,7 @@ export default function StorySection() {
           <p>
             Capacity building for all involved in the makings and running of &apos;Manqabang
           </p>
-          </div>
-          <p>
+          <p className="mb-2.5 text-terracotta">
             There is much more I hope this can eventually become. But &apos;Manqabang is my starting point.
           </p>
         </div>

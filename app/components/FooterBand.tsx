@@ -9,11 +9,11 @@ export default function FooterBand() {
           Stay. Gather. Discover.
         </p>
         <p className="mt-2 font-body text-lg text-espresso/90">
-        Let&apos;s Connect:  
-        <a href="#partner" className="hover:text-terracotta transition-colors">
-            rmmabejane@gmail.com 
+        Let&apos;s Connect:{" "} 
+        <a href="#email" className="hover:text-terracotta transition-colors">
+            rmmabejane@gmail.com, {" "}
           </a>
-          <span aria-hidden="true">·</span>
+          <span aria-hidden="true"></span>
           <a href="#contact" className="hover:text-terracotta transition-colors">
             +1 571 376 1911
           </a>
