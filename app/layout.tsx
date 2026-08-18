@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "'Manqabang — Lake Maqalika, Maseru, Lesotho",
   description:
-    "Stay. Gather. Discover Lesotho. An intimate lakeside resort on the banks of Lake Maqalika, just minutes from the heart of Maseru.",
+    "Stay. Gather. Discover Lesotho. An intimate lakeside hospitality property on the banks of Lake Maqalika, just minutes from the heart of Maseru.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

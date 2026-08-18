@@ -17,27 +17,27 @@ export default function Hero() {
             &apos;Manqabang
           </h1>
 
-          <p className="mt-3 font-script text-1xl sm:text-2xl text-terracotta">
+          <p className="mt-3 font-script text-xl sm:text-2xl text-terracotta">
             Stay. Gather. Discover.
           </p>
 
-          <div className="fade-rule mt-2.2" />
+          <div className="fade-rule mt-[0.55rem]" />
 
           <div className="mt-3 max-w-md space-y-2 font-body text-[0.98rem] leading-relaxed text-espresso/90">
             <p>
               On the banks of Lake Maqalika, just minutes from the heart of Maseru, sits
-              my family&apos;s most well-kept secret.  
+              my family&apos;s most well-kept secret.
             </p>
             <p>
               This land was once the home of my great-grandmother, <span className="italic text-terracotta">&apos;Manqabang</span>.
               It then became the home of her only daughter, <span className="italic text-terracotta">Nthabiseng</span>.
-              Over the years, our family has used the house and grounds for our own gatherings and 
+              Over the years, our family has used the house and grounds for our own gatherings and
               celebrations and, from time to time, opened it to others.
             </p>
             <p>
               We are now opening our home more broadly as{" "}
               <span className="italic text-terracotta">&apos;Manqabang</span>,
-              an intimate lakeside resort and a base from which visitors can
+              an intimate lakeside hospitality property and a base from which visitors can
               discover more of Lesotho.
             </p>
           </div>
