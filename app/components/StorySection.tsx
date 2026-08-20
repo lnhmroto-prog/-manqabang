@@ -138,12 +138,12 @@ export default function StorySection() {
         <div className="flex flex-col items-center justify-center text-center px-5 sm:px-8 py-8 lg:py-6 bg-cream">
           <p>
             I originally imagined building much of this from the United States.
-            But one of my core objectives is to create opportunities for Basotho
+            But if one of my core objectives is to create opportunities for Basotho
             businesses and communities, being in Lesotho puts me in a much
             better position to do it.
           </p>
           <p>
-            I will be closer to the designers and tailors. Closer to tourism
+            I will be closer to tourism
             businesses and guides. Closer to farmers, cooks, artists, makers,
             and other small businesses. Closer to the communities, the stories.
             And closer to understanding where the opportunities actually are to
@@ -176,7 +176,7 @@ export default function StorySection() {
             <p>
               Through this and other marketing initiatives—including a small
               podcast studio overlooking the lake, where we can bear witness to
-              one another&apos;s stories—we will create new ways for to take
+              one another&apos;s stories—we will create new ways to take
               Lesotho to the world, and bring the world to Lesotho.
             </p>
             <p>
