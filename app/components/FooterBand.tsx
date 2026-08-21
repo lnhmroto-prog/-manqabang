@@ -1,4 +1,5 @@
 import { Mail, Phone } from "lucide-react";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function FooterBand() {
   return (
@@ -22,6 +23,15 @@ export default function FooterBand() {
           >
             <Mail size={17} strokeWidth={1.75} aria-hidden="true" />
             rmmabejane@gmail.com
+          </a>
+          <a
+            href="https://www.linkedin.com/in/refiloemabejane/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 hover:text-terracotta transition-colors"
+          >
+            <FaLinkedin size={16} aria-hidden="true" />
+            Refiloe Mabejane
           </a>
           <a
             href="tel:+15713761911"
